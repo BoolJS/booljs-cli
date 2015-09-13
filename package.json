@@ -1,0 +1,34 @@
+{
+  "name": "booljs-cli",
+  "version": "1.0.0",
+  "description": "CLI client for bool.js",
+  "main": "index.js",
+  "bin": {
+    "bool": "index.js"
+  },
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "keywords": [
+    "bool.js",
+    "cli"
+  ],
+  "author": {
+    "name": "Pablo Andrés Dorado Suárez",
+    "mail": "pandres95@gentebool.com",
+    "url": "https://pandres95.me"
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.2"
+  },
+  "dependencies": {
+    "booljs-globals": "0.0.4",
+    "commander": "^2.8.1",
+    "handpipe": "^0.11.2",
+    "ncp": "^2.0.0",
+    "npm": "^2.14.3"
+  }
+}
