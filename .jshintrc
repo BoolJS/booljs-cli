@@ -1,9 +1,12 @@
 {
     "node": true,
+    "esnext": true,
     "laxcomma": true,
     "unused": true,
     "undef": true,
-    "predef": [
-        "_", "q", "log"
-    ]
+    "globals": {
+        "_": true,
+        "q": true,
+        "log": true
+    }
 }
