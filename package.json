@@ -2,9 +2,9 @@
   "name": "booljs-cli",
   "version": "1.1.1",
   "description": "CLI client for bool.js",
-  "main": "index.js",
+  "main": "lib/index.js",
   "bin": {
-    "bool": "index.js"
+    "bool": "lib/index.js"
   },
   "scripts": {
     "test": "mocha --recursive test"
@@ -26,9 +26,10 @@
   },
   "dependencies": {
     "booljs-globals": "0.0.4",
-    "commander": "^2.8.1",
+    "commander": "^2.9.0",
+    "gauge": "^2.6.0",
     "handpipe": "^0.11.2",
     "ncp": "^2.0.0",
-    "npm": "^2.14.3"
+    "npm": "^3.10.5"
   }
 }
