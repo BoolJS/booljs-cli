@@ -1,6 +1,6 @@
 {
-  "name": "booljs-cli",
-  "version": "1.2.0",
+  "name": "@booljs/cli",
+  "version": "2.0.0",
   "description": "CLI client for bool.js",
   "main": "lib/index.js",
   "bin": {
